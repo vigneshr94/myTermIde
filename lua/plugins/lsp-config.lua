@@ -8,6 +8,7 @@ return {
     {
         "williamboman/mason-lspconfig.nvim",
         lazy = false,
+        ensure_isntalled = {"dockerls","docker_compose_language_service", "eslint","emmet_language_server", "emmet_ls", "html", "pylsp"},
         opts = {
             auto_install = true,
         }
